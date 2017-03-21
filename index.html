@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>HackJosNG</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+		<link rel="shortcut icon" href="assets/hackjos-icon.ico">
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<style>
+			#header{
+				background-color: #4bd34b;
+			}
+			#header .dropdown-toggle{
+				color:white!important;
+			}
+			#topMain>li>a{
+				color: #fff;
+			}
+			@media only screen and (max-width: 992px)
+				#topMain>li>a {
+					 color: #000!important;
+				}
+		</style>
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!--
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="index.html">
+							<img src="assets/logo_white.png" alt="" />
+						</a>
+
+						<!--
+							Top Nav
+
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse pull-right nav-main-collapse collapse">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example:
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li><!-- HOME -->
+										<a href="#">
+											HOME
+										</a>
+									</li>
+									<li><!-- PAGES -->
+										<a href="#">
+											EVENT FEATURES
+										</a>
+									</li>
+									<li><!-- PAGES -->
+										<a href="#">
+											EVENT HISTORY
+										</a>
+									</li>
+									<li><!-- PAGES -->
+										<a href="#">
+											REGISTER
+										</a>
+									</li>
+									<li><!-- PAGES -->
+										<a href="#">
+											SPONSOR
+										</a>
+									</li>
+									<li><!-- PAGES -->
+										<a href="#">
+											CONTACT US
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+			<!-- SLIDER -->
+			<section id="slider" class="fullheight" style="background-image:url('_DSC3333.jpg');">
+				<div class="overlay dark-3"><!-- dark overlay [0 to 9 opacity] --></div>
+
+				<div class="display-table">
+					<div class="display-table-cell vertical-align-middle">
+						<div class="container">
+
+							<div class="row">
+								<div class="text-center col-md-8 col-xs-12 col-md-offset-2">
+
+									<h1 class="bold font-raleway wow fadeInUp" data-wow-delay="0.4s">#Hackjos2017</h1>
+									<h3 class="bold font-raleway wow fadeInUp" data-wow-delay="0.6s"><p style="color:#8cff04;margin: 0px;">Conference Theme</p><p>Funding/Sustaining Startups for Youth & Economic Development</p></h3>
+									<h6>STARTS IN</h6>
+
+									<!-- Circle Countdown -->
+									<div class="countdown circle" data-from="November 1, 2017 00:00:00"><!-- Example Date From: December 31, 2018 15:03:26 --></div>
+
+									<a class="btn btn-default btn-lg wow fadeIn margin-top-40 scrollTo" data-wow-delay="1.5s" href="#reservation"><i class="fa fa-angle-down"></i> REGISTER NOW &nbsp;<i class="fa fa-angle-down"></i></a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /SLIDER -->
+
+
+
+			<!-- Do Not Miss -->
+			<section id="donotmiss">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-3">
+
+							<div class="box-static box-border-top">
+								<div class="box-title">
+									<h4>Do Not Miss</h4>
+								</div>
+								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus.</p>
+								<p><small>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis.</small></p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1" style="background-color:#a0ce4e;">
+										<div class="box-icon-title">
+											<i class="fa fa-refresh fa-spin"></i>
+											<h2>Unique Experience</h2>
+										</div>
+										<p>Well-Respected Speakers</p>
+										<p>48 Hours Hackathon Challenge</p>
+										<p>Networking for Attendees</p>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2" style="background-color:#a0ce4e;">
+										<h4>Unique Experience</h4>
+										<hr />
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1" style="background-color:#cb9536;">
+										<div class="box-icon-title">
+											<i class="fa fa-map-marker"></i>
+											<h2>Great Locations</h2>
+										</div>
+										<p>Crest Hotel Old Airport, Rayfield Road,Jos<br/>
+										Fajib Hotel Rantya, State Low-Cost Housing Estate, Jos</p>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2" style="background-color:#cb9536;">
+										<h4>Great Locations</h4>
+										<hr />
+										<p><b>Conference <i class="fa fa-map-marker"></i></b><br/>Crest Hotel Old Airport, Rayfield Road,Jos</p>
+										<p><b>Hackathon <i class="fa fa-map-marker"></i></b><br/>Fajib Hotel Rantya, State Low-Cost Housing Estate, Jos</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1" style="background-color:#73b9dc;">
+										<div class="box-icon-title">
+											<i class="fa fa-beer"></i>
+											<h2>Barbecue Night</h2>
+										</div>
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2" style="background-color:#73b9dc;">
+										<h4>Barbecue</h4>
+										<hr />
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /Do Not Miss -->
+
+
+
+
+			<!-- News -->
+			<section id="news">
+				<div class="container">
+
+					<div class="row">
+
+						<!-- RIGHT -->
+						<div class="col-lg-9 col-md-9 col-sm-9 col-lg-push-3 col-md-push-3 col-sm-push-3">
+
+							<h2>Top 3 <span class="size-18">/ HackJos 2016!</span></h2>
+
+							<!-- news item -->
+							<div class="inews-item">
+								<a class="inews-thumbnail ico-rounded lightbox" href="_DSC3746.jpg" data-plugin-options="{&quot;type&quot;:&quot;image&quot;}">
+									<img class="img-responsive" src="_DSC3746.jpg" alt="image" />
+								</a>
+
+								<div class="inews-item-content">
+
+									<div class="inews-date-wrapper">
+										<span class="inews-date-day">1<sup><h3>st</h3></sup></span>
+										<span class="inews-date-month">Nov</span>
+										<span class="inews-date-year">2016</span>
+									</div>
+
+									<div class="inews-content-inner">
+
+										<h3 class="size-20"><a href="#">Team Bradsa</a></h3>
+										<ul class="blog-post-info list-inline noborder margin-bottom-20 nopadding">
+											<li>
+												<a href="page-profile.html">
+													<i class="fa fa-map-marker"></i>
+													<span class="font-lato">Abuja</span>
+												</a>
+											</li>
+											<li>
+												<i class="fa fa-hacker-news"></i>
+
+												<a class="category" href="#">
+													<span class="font-lato">Raspberry Pi</span>
+												</a>
+												<a class="category" href="#">
+													<span class="font-lato"><b>Smart Mirror</b></span>
+												</a>
+											</li>
+										</ul>
+
+										<p>This innovation provides the ability to see weather reports, time, incoming mails, check maps, read news feed and many more without having to look down on our phones or turn on the computer. The smart mirror is a deal breaker on how we can progressively use our technology. The team was led by <strong>Jennifer Kwentoh</strong> with <strong>Charles Amos Ubokulom</strong> and <strong>Israel Obiagba</strong> as team members.</p>
+									</div>
+
+
+								</div>
+							</div>
+							<!-- /news item -->
+
+							<!-- news item -->
+							<div class="inews-item">
+								<a class="inews-thumbnail ico-rounded lightbox" href="_DSC3950.jpg" data-plugin-options="{&quot;type&quot;:&quot;image&quot;}">
+									<img class="img-responsive" src="_DSC3950.jpg" alt="image" />
+								</a>
+
+								<div class="inews-item-content">
+
+									<div class="inews-date-wrapper">
+										<span class="inews-date-day">2<sup><h3>nd</h3></sup></span>
+										<span class="inews-date-month">Nov</span>
+										<span class="inews-date-year">2016</span>
+									</div>
+
+									<div class="inews-content-inner">
+
+										<h3 class="size-20"><a href="#">Team Ivory</a></h3>
+										<ul class="blog-post-info list-inline noborder margin-bottom-20 nopadding">
+											<li>
+												<a href="page-profile.html">
+													<i class="fa fa-map-marker"></i>
+													<span class="font-lato">UniJos</span>
+												</a>
+											</li>
+											<li>
+												<i class="fa fa-hacker-news"></i>
+
+												<a class="category" href="#">
+													<span class="font-lato">Arduino</span>
+												</a>
+												<a class="category" href="#">
+													<span class="font-lato"><b>Smart Socket</b></span>
+												</a>
+											</li>
+										</ul>
+
+										<p>Solution based on a scientific approach in the field of computer science. The solution focuses on algorithms in the area pf artificial intelligence encapsulated in an agent that effectively manages power consumption in respect to user preferences and goals. The team was led by <strong>Ezenuobodo Chukuwuebuka Prince</strong> with <strong>Mani Litium Christopher</strong> and <strong>Oguikpu Elene Sylvester</strong> as team members</p>
+									</div>
+
+
+								</div>
+							</div>
+							<!-- /news item -->
+
+							<!-- news item -->
+							<div class="inews-item">
+								<a class="inews-thumbnail ico-rounded lightbox" href="_DSC3942.jpg" data-plugin-options="{&quot;type&quot;:&quot;image&quot;}">
+									<img class="img-responsive" src="_DSC3942.jpg" alt="image" />
+								</a>
+
+								<div class="inews-item-content">
+
+									<div class="inews-date-wrapper">
+										<span class="inews-date-day">3<sup><h3>rd</h3></sup></span>
+										<span class="inews-date-month">Nov</span>
+										<span class="inews-date-year">2016</span>
+									</div>
+
+									<div class="inews-content-inner">
+
+										<h3 class="size-20"><a href="#">Team Canon</a></h3>
+										<ul class="blog-post-info list-inline noborder margin-bottom-20 nopadding">
+											<li>
+												<a href="page-profile.html">
+													<i class="fa fa-map-marker"></i>
+													<span class="font-lato">Jos</span>
+												</a>
+											</li>
+											<li>
+												<i class="fa fa-hacker-news"></i>
+
+												<a class="category" href="#">
+													<span class="font-lato">Arduino</span>
+												</a>
+												<a class="category" href="#">
+													<span class="font-lato"><b>IFarm</b></span>
+												</a>
+											</li>
+										</ul>
+
+										<p>An automated irrigation system called ifarm that collects data on the soil moisture level via mounted wirless sensors and process received data to determine water needs of the crop(s) and finanly notify farmers on the next course of action….the Team was led by <strong>Victor Ajor</strong> with <strong>Edward Obande</strong> and <strong>Adebayo Ishola</strong> as team members.</p>
+									</div>
+
+
+								</div>
+							</div>
+							<!-- /news item -->
+
+						</div>
+
+						<!-- LEFT -->
+						<div class="col-lg-3 col-md-3 col-sm-3 col-lg-pull-9 col-md-pull-9 col-sm-pull-9">
+
+							<h3 class="margin-top-8">Twitter Feed</h3>
+
+							<!--
+								data-php="php/twitter/tweet.php"	- widget php path
+								data-username="stepofweb"			- twitter username
+								data-limit="3"						- maximum twwts to load
+
+								PLEASE NOTE!
+								php/_cache/ - folder should be writable by the webserver!
+										- it's used to cache tweets
+							-->
+							<ul class="widget-twitter margin-bottom-20" data-php="php/twitter/tweet.php" data-username="stepofweb" data-limit="3">
+								<li></li>
+							</ul>
+
+							<!-- Soundcloud Widget -->
+							<iframe style="width:100%; height:166px" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/42082783&amp;color=a94545&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /News -->
+
+
+
+
+			<!-- Subscribe -->
+			<section class="alternate padding-xxs">
+				<div class="container">
+
+					<div class="row text-center">
+						<div class="col-lg-4 col-sm-8 col-lg-offset-4 col-md-offset-2 col-sm-offset-2">
+
+							<p class="size-12 text-muted nomargin">Please note: we never sell your email address!</p>
+							<h5 class="letter-spacing-1">STAY UP TO DATE</h5>
+							<div class="input-group">
+								<input id="newsletter_subscribe_email" type="text" class="form-control" placeholder="Type your email...">
+								<span class="input-group-btn">
+									<button id="newsletter_subscribe_btn" class="btn btn-primary" type="button">SUBSCRIBE</button>
+								</span>
+							</div><!-- /input-group -->
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /Subscribe -->
+
+
+
+
+			<!-- Upcoming Events -->
+			<section id="events">
+				<div class="container">
+
+					<h3>UPCOMING EVENTS /<span class="size-16 weight-400">see you soon!</span></h3>
+
+					<div class="row">
+
+						<div class="col-sm-4">
+
+							<h4><i class="glyphicon glyphicon-option-vertical"></i> Ordered By Date</h4>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">02</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">03</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">04</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-sm-4">
+
+							<h4><i class="glyphicon glyphicon-option-vertical"></i> Ordered By Title</h4>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">08</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">09</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">10</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-sm-4">
+
+							<h4><i class="glyphicon glyphicon-option-vertical"></i> Order Randomly</h4>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">14</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">15</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">16</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+			</section>
+			<!-- /Upcoming Events -->
+
+			<section class="nopadding">
+				<div class="container">
+					<ul class="nav nav-tabs nav-justified">
+						<li class="active"><a href="#home" data-toggle="tab">Individual</a></li>
+						<li><a href="#profile" data-toggle="tab">Team</a></li>
+						<li><a href="#profile" data-toggle="tab">Conference</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane fade in active" id="home">
+							<p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+						</div>
+						<div class="tab-pane fade" id="profile">
+							<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+						</div>
+					</div>
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item active">
+							<a class="nav-link active" data-toggle="tab" href="#single" role="tab">Individual</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#team" role="tab">Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#conference" role="tab">Conference</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="single" role="tabpanel">
+							<header class="text-center margin-bottom-60 clearfix">
+								<h2 class="weight-300 nomargin-bottom">TICKET <span><strong>RESERVATION</strong></span></h2>
+							</header>
+
+							<form class="validate" action="php/contact.php" method="post" data-success="Reservation sent! Thank you!" data-toastr-position="bottom-right">
+								<div class="row">
+									<div class="col-md-4">
+										<input type="text" id="reservation_name" name="reservation_name" class="form-control required" placeholder="Name*">
+									</div>
+
+									<div class="col-md-4">
+										<input type="email" id="reservation_email" name="reservation_email" class="form-control required" placeholder="Email*">
+									</div>
+
+									<div class="col-md-4">
+										<input type="text" id="reservation_phone" name="reservation_phone" class="form-control required" placeholder="Phone*">
+									</div>
+
+								</div>
+								<div class="row">
+
+									<div class="col-md-4">
+										<input type="text" id="reservation_date" name="reservation_date" class="form-control datepicker required" data-format="yyyy-mm-dd" data-lang="en" data-RTL="false" placeholder="Reservation Date*">
+									</div>
+
+									<div class="col-md-4">
+										<select id="reservation_people" name="reservation_people" class="form-control required">
+											<option value="1">1 Person</option>
+											<option value="2" selected="selected">2 People</option>
+											<option value="3">3 People</option>
+											<option value="4">4 People</option>
+											<option value="5">5 People</option>
+											<option value="6">6 People</option>
+											<option value="7">7 People</option>
+											<option value="8">8 People</option>
+											<option value="9">9 People</option>
+											<option value="10">10 People</option>
+											<option value="12">12 People</option>
+											<option value="15">15 People</option>
+											<option value="20">20 People</option>
+											<option value="25">25 People</option>
+											<option value="30">30 People</option>
+										</select>
+									</div>
+
+									<div class="col-md-4">
+										<button class="btn btn-success btn-block" type="submit">SUBMIT RESERVATION</button>
+									</div>
+
+								</div>
+
+
+							</form>
+						</div>
+						<div class="tab-pane" id="team" role="tabpanel">
+							<header class="text-center margin-bottom-60 clearfix">
+								<h2 class="weight-300 nomargin-bottom">TICKET <span><strong>RESERVATION</strong></span></h2>
+							</header>
+
+							<form class="validate" action="php/contact.php" method="post" data-success="Reservation sent! Thank you!" data-toastr-position="bottom-right">
+								<div class="row">
+									<div class="col-md-4">
+										<input type="text" id="reservation_name" name="reservation_name" class="form-control required" placeholder="Name*">
+									</div>
+
+									<div class="col-md-4">
+										<input type="email" id="reservation_email" name="reservation_email" class="form-control required" placeholder="Email*">
+									</div>
+
+									<div class="col-md-4">
+										<input type="text" id="reservation_phone" name="reservation_phone" class="form-control required" placeholder="Phone*">
+									</div>
+
+								</div>
+								<div class="row">
+
+									<div class="col-md-4">
+										<input type="text" id="reservation_date" name="reservation_date" class="form-control datepicker required" data-format="yyyy-mm-dd" data-lang="en" data-RTL="false" placeholder="Reservation Date*">
+									</div>
+
+									<div class="col-md-4">
+										<select id="reservation_people" name="reservation_people" class="form-control required">
+											<option value="1">1 Person</option>
+											<option value="2" selected="selected">2 People</option>
+											<option value="3">3 People</option>
+											<option value="4">4 People</option>
+											<option value="5">5 People</option>
+											<option value="6">6 People</option>
+											<option value="7">7 People</option>
+											<option value="8">8 People</option>
+											<option value="9">9 People</option>
+											<option value="10">10 People</option>
+											<option value="12">12 People</option>
+											<option value="15">15 People</option>
+											<option value="20">20 People</option>
+											<option value="25">25 People</option>
+											<option value="30">30 People</option>
+										</select>
+									</div>
+
+									<div class="col-md-4">
+										<button class="btn btn-success btn-block" type="submit">SUBMIT RESERVATION</button>
+									</div>
+
+								</div>
+
+
+							</form>
+						</div>
+						<div class="tab-pane" id="conference" role="tabpanel">...</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<!-- -->
+			<section class="nopadding">
+				<div class="container">
+
+					<!--
+						controlls-over		= navigation buttons over the image
+						buttons-autohide 	= navigation buttons visible on mouse hover only
+
+						data-plugin-options:
+							"singleItem": true
+							"autoPlay": true (or ms. eg: 4000)
+							"navigation": true
+							"pagination": true
+					-->
+					<div class="text-center margin-top-30 margin-bottom-30">
+						<div class="owl-carousel nomargin" data-plugin-options='{"singleItem": false, "autoPlay": 3000,"navigation": false,"pagination": false}'>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/1.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/2.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/3.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/4.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/5.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/6.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/7.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/8.jpg" alt="">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
+
+
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-5">
+							<!-- Footer Logo -->
+							<img class="footer-logo" src="assets/logo.png" alt="" />
+
+							<!-- Small Description -->
+							<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+							<!-- Contact Address -->
+							<address>
+								<ul class="list-unstyled">
+									<li class="footer-sprite address">
+
+										3<sup>rd</sup> floor Taen Business Complex<br>
+										Opp. Nitel Office, Old Airport Junction,<br>
+										Jos, Plateau State
+									</li>
+									<li class="footer-sprite phone">
+										Phone: +234-806-889-7177
+									</li>
+									<li class="footer-sprite email">
+										<a href="mailto:sponsorships@hackjos.ng">sponsorships@hackjos.ng</a>
+									</li>
+								</ul>
+							</address>
+							<!-- /Contact Address -->
+
+						</div>
+
+
+
+						<div class="col-md-2">
+
+							<!-- Links -->
+							<h4 class="letter-spacing-1">EXPLORE SMARTY</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Our Services</a></li>
+								<li><a href="#">Our Clients</a></li>
+								<li><a href="#">Our Pricing</a></li>
+								<li><a href="#">Smarty Tour</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-4">
+
+							<!-- Newsletter Form -->
+							<h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
+							<p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+							<!-- Social Icons -->
+							<div class="margin-top-20">
+								<a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="Rss">
+									<i class="icon-rss"></i>
+									<i class="icon-rss"></i>
+								</a>
+
+							</div>
+							<!-- /Social Icons -->
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+		<!-- STYLESWITCHER - REMOVE -->
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+	</body>
+</html>
